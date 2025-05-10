@@ -1,0 +1,79 @@
+site_name: Opla - Documentazione interna
+repo_url: https://gitlab.com/bottinelli/opla_interna
+site_url: https://gitlab.com/bottinelli/opla_interna
+
+nav:
+    - Home:  index.md
+    - Opla:
+      - Clienti: opla\anagrafica clienti.md
+      - Dispo tessitura: opla\dispo tessitura orditura.md
+      - Dispo lavorazione: opla\dispo lavorazione.md 
+    - Procedure:
+      - Disposizione campione tessitura: procedure\Procedura disposizione campione tessitura.md
+      - Disposizione campione stampa: procedure\Procedura disposizione campione stampa.md
+    
+markdown_extensions:
+    - toc:
+        toc_depth: 3    
+
+theme:
+  name: material
+  logo: img/logo_bottinelli_vector_RGB.png
+  icon:
+    repo: fontawesome/brands/gitlab
+  favicon: img/logo_bottinelli.png 
+  features:
+    - navigation.instant
+    - navigation.instant.progress    
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.prune
+    - toc.follow
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+    - content.code.copy
+    
+  palette:
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+    
+plugins:
+  - search:
+      lang: it
+      separator: '[\s\-\.\_]+'
+  - privacy      
+  - git-revision-date-localized:
+      enable_creation_date: true
+    
+extra_css:
+  - stylesheets/extra.css  
+
+copyright: >
+  Copyright &copy; 2025 - 2030 Bottinelli Informatica –
+  <a href="#__consent">Change cookie settings</a>
+  
+extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    actions:
+      - accept
+      - manage   
+      
