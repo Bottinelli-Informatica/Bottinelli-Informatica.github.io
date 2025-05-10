@@ -1,16 +1,16 @@
-site_name: Opla - Documentazione interna
-repo_url: https://gitlab.com/bottinelli/opla_interna
-site_url: https://gitlab.com/bottinelli/opla_interna
+site_name: Bottinelli Informatica - Documentazione interna
+repo_url: https://github.com/Bottinelli-Informatica/Bottinelli-Informatica.github.io.git
+site_url: https://github.com/Bottinelli-Informatica/Bottinelli-Informatica.github.io.git
 
 nav:
     - Home:  index.md
     - Opla:
-      - Clienti: opla\anagrafica clienti.md
-      - Dispo tessitura: opla\dispo tessitura orditura.md
-      - Dispo lavorazione: opla\dispo lavorazione.md 
+      - Clienti: opla/anagrafica clienti.md
+      - Dispo tessitura: opla/dispo tessitura orditura.md
+      - Dispo lavorazione: opla/dispo lavorazione.md 
     - Procedure:
-      - Disposizione campione tessitura: procedure\Procedura disposizione campione tessitura.md
-      - Disposizione campione stampa: procedure\Procedura disposizione campione stampa.md
+      - Disposizione campione tessitura: procedure/Procedura disposizione campione tessitura.md
+      - Disposizione campione stampa: procedure/Procedura disposizione campione stampa.md
     
 markdown_extensions:
     - toc:
@@ -49,7 +49,7 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-    
+   
 plugins:
   - search:
       lang: it
@@ -57,6 +57,7 @@ plugins:
   - privacy      
   - git-revision-date-localized:
       enable_creation_date: true
+      fallback_to_build_date: true  
     
 extra_css:
   - stylesheets/extra.css  
@@ -76,4 +77,4 @@ extra:
     actions:
       - accept
       - manage   
-      
+    
