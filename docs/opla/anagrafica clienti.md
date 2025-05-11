@@ -5,7 +5,7 @@ nome applicativo: o_cli2_g
 link interno [Elenco clienti](#elenco-clienti)
 
 link altro file 
-[procedura](../../procedure/procedura disposizione campione stampa/#procedura)
+[procedura](../../procedure/Procedura disposizione campione stampa/#procedura)
 
 ## Voci menu
 
